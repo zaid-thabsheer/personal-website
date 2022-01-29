@@ -730,17 +730,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <form id="submit-form">
                         <div class="form-group">
                             <div id="errormsg"></div>
-                            <input type="text" name="name" class="form-control" id="name" maxlength="20" placeholder="Your Name*" onkeyup="nameValidate()" required="required">
+                            <input type="text" name="name" class="form-control" id="name" maxlength="20" placeholder="Your Name" onkeyup="nameValidate()">
                         </div>
 
                         <div class="form-group mt-3">
                             <div id="errormsg1"> </div>
-                            <input type="email" class="form-control" name="email" id="email" maxlength="30" placeholder="Your Email*" onkeyup="emailValidate()" required="required">
+                            <input type="email" class="form-control" name="email" id="email" maxlength="30" placeholder="Your Email" onkeyup="emailValidate()">
                         </div>
                         <div id="errormsg2"> </div>
                         <div class="form-group mt-3" style="border: 2px solid #00a78e;">
 
-                            <input type="tel" maxlength="10" name="mobile" class="form-control" id="number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..)\./g, '$1');" pattern="[1-9]{1}[0-9]{9}" required="required" onkeyup="mobileValidate()" placeholder="Mobile Number*">
+                            <input type="tel" maxlength="10" name="mobile" class="form-control" id="number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..)\./g, '$1');" pattern="[1-9]{1}[0-9]{9}" onkeyup="mobileValidate()" placeholder="Mobile Number">
                         </div>
 
 
@@ -750,7 +750,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="right-column ">
                             <div class="form-group">
                                 <div id="errormsg3"> </div>
-                                <input id="subject" type="text" name="subject" class="form-control" placeholder="Subject*" required="required" maxlength="30" data-error="Subject is required." onkeyup="subjectValidate()">
+                                <input id="subject" type="text" name="subject" class="form-control" placeholder="Subject" maxlength="30" data-error="Subject is required." onkeyup="subjectValidate()">
                             </div>
 
                             <div class="form-group mt-3">
@@ -780,192 +780,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <!-- //footer -->
     <!-- /container -->
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <h3>Image-Title</h3>
-                            <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content port-modal">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <div class="modal-body">
-                            <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
     <!--start-smooth-scrolling-->
     <script type="text/javascript">
@@ -1021,9 +836,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
             if (varname == " ") {
                 $('#errormsg').html("Name is mandatory");
-                return false;
-            } else if (varname.length < 3) {
-                $('#errormsg').html("minimum 3 characters required.");
                 return false;
             } else if (varname.match(pattern)) {
                 $('#errormsg').html("");
